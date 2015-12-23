@@ -6,6 +6,7 @@ module.exports = {
 	'compilation_level': 'ADVANCED_OPTIMIZATIONS',
 	'checks-only': false,
 	'charset': 'UTF-8',
+	'externs': 'gcc-externs.js',
 	'jscomp_error': [
 		// 'accessControls',
 		// 'ambiguousFunctionDecl',

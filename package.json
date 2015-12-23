@@ -1,12 +1,9 @@
 {
-  "name": "contexta",
-  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "google-closure-compiler": "latest",
     "gulp": "^3.8.0",
-    "gulp-util": "^3.0.6",
-    "node-libs-browser": "^0.5.2",
-    "webpack": "^1.10.1"
+    "gulp-util": "^3.0.0",
+    "webpack": "^1.10.0"
   }
 }

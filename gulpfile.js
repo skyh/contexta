@@ -12,12 +12,14 @@ function pack(options) {
 
 	return new Promise(function (resolve, reject) {
 		webpack({
-			entry: './src',
+			entry: './lib/index.js',
 			output: {
 				path: OUT,
 				filename: 'contexta.js',
+				library: 'Contexta',
+				libraryTarget: 'umd',
 			},
-			devtool: '#inline-source-map'
+			devtool: '#source-map'
 		}, function (err, stats) {
 			if (err) {
 				return reject(err);
