@@ -30,7 +30,7 @@
 
 			document.querySelector('#deactivate').addEventListener('click', function listener() {
 				console.time('deactivate time');
-				contexta.deactivate(document.body);
+				Contexta.deactivateAll(document.body);
 				console.timeEnd('deactivate time');
 			});
 		}
@@ -38,8 +38,8 @@
 	</script>
 </head>
 <body>
-	<div class="">
-		<button id="activate">Активировать</button>
+	<div>
+		<button id="activate">Активировать квант</button>
 		<button id="deactivate">Деактивировать</button>
 	</div>
 	<div class="template">
